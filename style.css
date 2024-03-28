@@ -63,7 +63,9 @@ ul,
 .call-right,
 .call-left,
 .footer-left,
-.footer-middle ul {
+.footer-middle ul,
+.footer-left-contact,
+.footer-left-contact li {
   flex-direction: column;
 }
 
@@ -72,9 +74,15 @@ ul,
   padding-bottom: 4rem;
 }
 .left-stay-1-2-avatar {
-  justify-content: flex-start;
   align-items: center;
   gap: 1.5rem;
+}
+
+.footer-middle ul,
+.left-stay-1-2-avatar,
+.footer-middle ul,
+.hero-form {
+  justify-content: flex-start;
 }
 
 .left-stay {
@@ -150,7 +158,6 @@ ul {
 }
 
 .hero-form {
-  justify-content: flex-start;
   gap: 1rem;
 }
 
@@ -224,5 +231,16 @@ footer {
 }
 .footer-middle ul {
   gap: 1rem;
-  justify-content: flex-start;
+}
+
+.footer-left-contact,
+.footer-left-contact li {
+  align-items: center;
+  justify-items: center;
+  gap: 1.5rem;
+  color: #d6cbde;
+}
+
+.footer-container a {
+  color: #d6cbde;
 }
