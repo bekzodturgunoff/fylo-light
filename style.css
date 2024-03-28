@@ -17,7 +17,9 @@
 
 nav,
 .hero,
-.stay-container {
+.stay-container,
+.call-to-action,
+.footer-container {
   max-width: 1440px;
   margin: auto;
   font-family: var(--openSans);
@@ -42,17 +44,65 @@ ul,
 .curved-bg-holder,
 .left-stay,
 .left-stay-1,
-.left-stay-1-2 {
+.left-stay-1-2,
+.left-stay-1-2-avatar,
+.call-to-action,
+.call-right,
+.call-left,
+.footer-middle,
+.footer-left,
+.footer-right,
+.footer-container {
   display: flex;
   justify-content: space-between;
 }
 
 .left-stay,
 .left-stay-1,
-. {
+.left-stay-1-2,
+.call-right,
+.call-left,
+.footer-left,
+.footer-middle ul {
   flex-direction: column;
 }
 
+.stay-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.left-stay-1-2-avatar {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.left-stay {
+  gap: 2rem;
+}
+.left-stay-1 a {
+  color: var(--ModerateCyan);
+}
+.left-stay-1-2 {
+  background-color: #fff;
+  border-radius: 1rem;
+  width: 35rem;
+  padding: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.left-stay-1-2 p {
+  line-height: 2rem;
+}
+.left-stay-1-2 img {
+  width: 20px;
+}
+.left-stay-1-2-avatar img {
+  width: 70px;
+  border-radius: 50%;
+}
+.stay-bg {
+  background-color: #f8f8fe;
+}
 .left-stay-1 {
   width: 70%;
   gap: 1rem;
@@ -119,4 +169,60 @@ ul {
   color: #fff;
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.call-bg {
+  background-color: var(--desaturedBlue);
+  color: #fff;
+  padding: 6rem;
+}
+
+.call-left {
+  gap: 1rem;
+  width: 36%;
+}
+.call-left p {
+  color: #d6cbde;
+}
+
+.call-right input {
+  text-indent: 1rem;
+  padding: 1rem;
+  width: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border: none;
+  border-radius: 5px;
+}
+
+.call-right input::placeholder {
+  color: var(--lightGray);
+}
+
+.call-right button {
+  width: 13rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: var(--brightBlue);
+  color: #fff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+footer {
+  background-color: var(--darkBlue);
+}
+
+.footer-left img {
+  width: 200px;
+}
+
+.footer-left-contact img {
+  width: auto;
+}
+
+.footer-container {
+  padding: 3rem;
+}
+.footer-middle ul {
+  gap: 1rem;
+  justify-content: flex-start;
 }
